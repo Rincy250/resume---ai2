@@ -84,3 +84,53 @@ Check out the live demo at resumelm.com
  - PostgreSQL with Row Level Security
  - Prisma ORM
  - Supabase Auth
+
+ ##🚀 Getting Started
+
+1.Clone the repository:
+``` bash
+git clone https://github.com/yourusername/resumelm.git
+```
+
+2.Install the dependencies:
+
+``` bash 
+ npm install
+ # or
+ pnpm install
+```
+
+3.Set up your environment variables:
+
+``` bash
+cp .env.example .env.local
+```
+
+Required environment variables:
+
+- OPENAI_API_KEY: For AI features
+- DATABASE_URL: For data storage
+- NEXT_PUBLIC_APP_URL: Your application URL
+
+4. Start the development Server:
+
+``` bash 
+npm run dev
+# or
+pnpm dev
+```
+
+## 🏗️ Project Status
+
+### Production Ready Features
+- ✅ Complete resume management system
+- ✅ AI-powered content generation and optimization
+- ✅ PDF export functionality
+- ✅ Responsive design system
+- ✅ User authentication and authorization
+- ✅ Profile management
+- ✅ Real-time preview and editing
+
+
+
+   
